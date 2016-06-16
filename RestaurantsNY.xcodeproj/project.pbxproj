@@ -20,6 +20,7 @@
 		88B5287E1D1208D300E9A67A /* RestaurantProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B5287D1D1208D300E9A67A /* RestaurantProfileViewController.swift */; };
 		88C3E3061D11C96200B2CE76 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E3051D11C96200B2CE76 /* Stats.swift */; };
 		88C3E3081D11CC6B00B2CE76 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C3E3071D11CC6B00B2CE76 /* City.swift */; };
+		88D68D081D125CA5001E7715 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D68D071D125CA5001E7715 /* Reachability.swift */; };
 		88E38C451D11AF9300990A27 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E38C441D11AF9300990A27 /* Constants.swift */; };
 		DC448DEBBEAD57BBDFDE2579 /* Pods_RestaurantsNY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39654F3F731C4C5921093409 /* Pods_RestaurantsNY.framework */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		88B5287D1D1208D300E9A67A /* RestaurantProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantProfileViewController.swift; sourceTree = "<group>"; };
 		88C3E3051D11C96200B2CE76 /* Stats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 		88C3E3071D11CC6B00B2CE76 /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		88D68D071D125CA5001E7715 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		88E38C441D11AF9300990A27 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B3E0D8E0697B854D8703EB5 /* Pods-RestaurantsNYTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantsNYTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantsNYTests/Pods-RestaurantsNYTests.release.xcconfig"; sourceTree = "<group>"; };
 		DB2F06F68D0AA66BFA07C433 /* Pods-RestaurantsNYTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantsNYTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantsNYTests/Pods-RestaurantsNYTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		88327F071D11A23C009B610F /* RestaurantsNY */ = {
 			isa = PBXGroup;
 			children = (
+				88D68D061D125C90001E7715 /* Helpers */,
 				88B5287C1D1208BC00E9A67A /* ViewControllers */,
 				8842DF5D1D11F5340062746E /* ViewCells */,
 				88E38C431D11AF4F00990A27 /* Constants */,
@@ -160,6 +163,14 @@
 				88B5287D1D1208D300E9A67A /* RestaurantProfileViewController.swift */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		88D68D061D125C90001E7715 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				88D68D071D125CA5001E7715 /* Reachability.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		88E38C421D11AF4700990A27 /* Models */ = {
@@ -389,6 +400,7 @@
 				88C3E3061D11C96200B2CE76 /* Stats.swift in Sources */,
 				88E38C451D11AF9300990A27 /* Constants.swift in Sources */,
 				88327F091D11A23C009B610F /* AppDelegate.swift in Sources */,
+				88D68D081D125CA5001E7715 /* Reachability.swift in Sources */,
 				8842DF5C1D11E0F40062746E /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

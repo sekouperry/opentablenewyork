@@ -21,9 +21,12 @@ class RestaurantsNYTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testInternet() {
+        if Reachability.isConnectedToNetwork() == true {
+            XCTAssert(true)
+        } else {
+            XCTAssert(false)
+        }
     }
     
     func testPerformanceExample() {
